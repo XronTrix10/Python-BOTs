@@ -179,10 +179,8 @@ def main():
 
     msg_1 = "<b>Alien X Started ! 👽</b>"
     my_chat_id1 = "1564082459"
-    my_chat_id2 = "-1001781590831"
     try:
         bot.sendMessage(my_chat_id1, msg_1, 'HTML', disable_web_page_preview=True)
-        bot.sendMessage(my_chat_id2, msg_1, 'HTML', disable_web_page_preview=True)
     except:
         LOGGER.error(e)
 
